@@ -1,0 +1,16 @@
+names:
+- car
+- car_door_opened
+- motocycle
+- open_driver_seat
+- person
+nc: 5
+roboflow:
+  license: CC BY 4.0
+  project: car_driver_seat
+  url: https://universe.roboflow.com/rena-hyun-0lmxr/car_driver_seat/dataset/13
+  version: 13
+  workspace: rena-hyun-0lmxr
+test: ../test/images
+train: ../train/images
+val: ../valid/images
